@@ -2,12 +2,52 @@
 <html>
 <head>
     <title>My First Code</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            margin-top: 100px;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 20px;
+        }
+        button {
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 25px;
+            background: gold;
+            color: black;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background: orange;
+        }
+    </style>
 </head>
-<body style="text-align:center; font-family:Arial;">
-    <h1>Hello World 👋</h1>
-    <p>This is my first code on GitHub!</p>
-    <button onclick="alert('I just wrote my first code! 🚀')">
-        Click Me
-    </button>
+
+<body>
+    <div class="container">
+        <h1>Hello World 👋</h1>
+        <p>This is my first stylish website 🚀</p>
+        <p>I’m starting my coding journey today!</p>
+
+        <button onclick="showMessage()">Click Me</button>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("Welcome to my first website 😎🔥");
+        }
+    </script>
 </body>
 </html>
